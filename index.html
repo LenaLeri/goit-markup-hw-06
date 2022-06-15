@@ -439,6 +439,48 @@
             <use href="./images/symbol-defs.svg#icon-close-black"></use>
           </svg>
         </button>
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form>
+          <div class="form-field">
+            <label for="user-name" class="modal-lable">Имя</label>
+            <input type="text" name="user-name" class="modal-input" id="user-name" required />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-person-black"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label for="user-tel" class="modal-lable">Телефон</label>
+            <input type="tel" name="user-tel" class="modal-input" id="user-tel" required />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label for="user-email" class="modal-lable">Почта</label>
+            <input type="email" name="user-email" class="modal-input" id="user-email" required />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-email-black"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label for="modal-text" class="modal-lable">Комментарий</label>
+            <textarea
+              name="user-text"
+              id="user-text"
+              cols="30"
+              rows="10"
+              class="modal-text"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <div class="form-field field-check">
+            <input type="checkbox" name="contract" class="modal-check" id="contract" />
+            <label for="contract" class="modal-lable"></label>
+              Соглашаюсь с рассылкой и принимаю <a href=""> Условия договора </a>
+            </label>
+          </div>
+          <button type="submit" class="button-check">Отправить</button>
+        </form>
       </div>
     </div>
 
