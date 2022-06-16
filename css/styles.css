@@ -886,8 +886,9 @@ img {
 }
 
 .modal-lable {
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
   color: var(--second-text-color);
 }
 .modal-text {
@@ -899,6 +900,11 @@ img {
   padding: 12px 16px;
   margin-top: 4px;
   outline: transparent;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-text:focus {
@@ -908,6 +914,14 @@ img {
 .form-field + .form-field {
   margin-top: 10px;
 }
+
+.modal-text:not(:placeholder-shown) {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: var(--second-text-color);
+}
+
 .modal-icon {
   position: absolute;
   top: 50%;
