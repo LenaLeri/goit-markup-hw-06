@@ -923,12 +923,10 @@ img {
 }
 
 .field-check {
-  margin-top: 20px;
-}
-.field-check {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 .modal-link {
   color: var(--accent-color);
